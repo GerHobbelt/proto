@@ -172,7 +172,7 @@ namespace boost { namespace proto
     /// 
     /// proto::terminal<int>::type i = {0};
     /// 
-    /// int main()
+    /// int main(void)
     /// {
     ///     Foo()(i);
     ///     std::cout << typeid(Foo()(i)).name() << std::endl;
